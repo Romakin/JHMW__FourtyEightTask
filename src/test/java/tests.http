@@ -1,0 +1,37 @@
+
+# First task
+
+GET http://localhost:8898/authorize?user=admin&password=admin1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize?user=user&password=user1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize?user=manager&password=manager1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize?user=someone&password=pass
+Accept: application/json
+###
+
+
+# Second Task
+
+GET http://localhost:8898/authorize2?user=admin&password=admin1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize2?user=user&password=user1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize2?user=manager&password=manager1
+Accept: application/json
+###
+
+GET http://localhost:8898/authorize2?user=someone&password=pass
+Accept: application/json
+###
